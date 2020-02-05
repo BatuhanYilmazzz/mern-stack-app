@@ -20,7 +20,7 @@ const Login = () => {
       </h1>
       <form onSubmit={handleSubmit}>
         <div className='form-group'>
-          <label htmlFor='email'>Email</label>
+          <label htmlFor='email'>Emaill</label>
           <input type='email' name='email' value={email} onChange={onChange} />
         </div>
         <div className='form-group'>
