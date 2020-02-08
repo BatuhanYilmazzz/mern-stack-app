@@ -60,6 +60,7 @@ const ContactFrom = () => {
         name='name'
         value={name}
         onChange={onChange}
+        autoComplete='false'
       />
       <input
         type='text'
