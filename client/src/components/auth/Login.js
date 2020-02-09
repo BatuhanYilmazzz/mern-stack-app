@@ -37,8 +37,9 @@ const Login = props => {
       });
     }
   };
-
+  // eslint-disable-next-line
   const { name, email, password, password2 } = user;
+
   return (
     <div className='form-container'>
       <h1>
